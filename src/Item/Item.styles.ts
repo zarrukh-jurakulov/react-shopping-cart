@@ -8,18 +8,17 @@ export const Wrapper = styled.div`
   border: 1px solid lightblue;
   border-radius: 20px;
   height: 100%;
-
-  button: {
+  button {
     border-radius: 0 0 20px 20px;
   }
-
-  img: {
+  img {
     max-height: 250px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
   }
-
-  div: {
+  div {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    height: 100%;
   }
 `;
